@@ -4,8 +4,15 @@
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/laravel-test.git
+##SSH
+git clone git@github.com:Jairo09/Abaco-Products.git
+
+##HTTPS
+git clone https://github.com/Jairo09/Abaco-Products.git
+
 cd laravel-test
+
+cp .env.example .env
 
 composer install
 
